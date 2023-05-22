@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TradeReport": {
+      "commandName": "Project",
+      "commandLineArgs": "test"
+    }
+  }
+}
