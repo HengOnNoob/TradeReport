@@ -29,9 +29,9 @@ To run the application, navigate to the project directory and run program. The a
 TradeReport.exe <productType> <brokerName> <tradeDate>
 ```
 
-- `productType` (optional): The type of product to filter by. Valid options are `FWD`, `BF`, `IRS`, `CDS`, and `OPT`.
-- `brokerName` (optional): The name of the broker to filter by. Valid brokers are `Broker A`, `Broker B` and `Broker C`
-- `tradeDate` (optional): The trade date to filter by. Must be in the format `yyyyMMdd` or `yyyy-MM-dd`.
+- `productType` (optional): The type of product to filter by. Valid options are `FWD`, `BF`, `IRS`, `CDS`, and `OPT`. `null` when there it is not specify.
+- `brokerName` (optional): The name of the broker to filter by. Valid brokers are `Broker A`, `Broker B` and `Broker C`. `null` when there it is not specify.
+- `tradeDate` (optional): The trade date to filter by. Must be in the format `yyyyMMdd` or `yyyy-MM-dd`. `null` when there it is not specify.
 
 With the arguement "TEST", the application will generate varies report in the CSV file.
 If the type of product or brokerName is invalid, it will return the header with empty records
