@@ -33,7 +33,7 @@ TradeReport.exe <productType> <brokerName> <tradeDate>
 - `brokerName` (optional): The name of the broker to filter by. Valid brokers are `Broker A`, `Broker B` and `Broker C`. Enter `null` when there it is not specify.
 - `tradeDate` (optional): The trade date to filter by. Must be in the format `yyyyMMdd` or `yyyy-MM-dd`. Enter `null` when there it is not specify.
 
-With the arguement "TEST", the application will generate varies report in the CSV file.
+With the arguement "TEST", the application will generate varies report in default.
 If the type of product or brokerName is invalid, it will return the header with empty records
 
 ## Features
